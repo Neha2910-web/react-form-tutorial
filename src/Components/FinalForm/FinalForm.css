@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.form-controls{
+    display: block;
+margin: auto;
+border: 1px solid gray;
+padding: 15px;
+padding-bottom: 10px;
+width:800px;
+box-shadow: 0px 1px 5px 5px #888888;
+margin-top: 45px;
+flex-flow: row wrap;
+    margin: 34px -1rem 1rem 22rem;
+}
+ h1{
+  display: flex;
+    justify-content: center;
+    
+    flex: 0 1 100%;
+ }
+.form-control {
+    margin-left: 15px;
+    padding: 0px 5rem;
+}
+input{
+    width: 40em;
+    margin-bottom: 14px;
+    padding: 8px;
+    
+    
+    display: block;
+}
+
+ .buttons{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+    font-size: large;
+    border-radius: 11px;
+} 
+
+p{
+    color:red;
+    margin-top: -9px;
+    margin-bottom: -25px;
+}
+
+
+
+
+
+
