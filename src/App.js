@@ -3,9 +3,13 @@ import {BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 import FormInput from './Components/FormikForm/FormikForm';
 import FinalForm from './Components/FinalForm/FinalForm';
 import SimpleForm from './Components/SimpleForm/SimpleForm';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 const App = () => {
   return(
+    
     <BrowserRouter>
+    <Header/>
     <div className='header-control'>
       <button className='formik-button'><Link to='/formik'>Formik Form</Link> </button>
       <button className='simple-button'><Link to='/simple'>Simple Form</Link>  </button>
@@ -16,8 +20,9 @@ const App = () => {
       <Route path='/final' element={<FinalForm/>}/>
       <Route path='/simple' element={<SimpleForm/>}/>
     </Routes>
-    
-    </BrowserRouter>
+    <Footer/>
+       </BrowserRouter>
+ 
   )
 }
 

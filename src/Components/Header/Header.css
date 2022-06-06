@@ -1,0 +1,17 @@
+.nav-bar{
+padding: 5px;
+margin: 0px;
+background-color: skyblue;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  height:3rem;
+}
+ a{
+        text-decoration: none;
+        font-size:25px ;
+
+}
+.nav-list{
+        margin-right:5rem;
+}
