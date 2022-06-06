@@ -5,7 +5,7 @@ background-color: skyblue;
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  height:3rem;
+  height:48px;
 }
  a{
         text-decoration: none;
@@ -13,5 +13,5 @@ background-color: skyblue;
 
 }
 .nav-list{
-        margin-right:5rem;
+        margin-right:80px;
 }

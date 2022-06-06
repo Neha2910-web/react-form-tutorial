@@ -10,11 +10,11 @@ const App = () => {
     
     <BrowserRouter>
     <Header/>
-    <div className='header-control'>
+    {/* <div className='header-control'>
       <button className='formik-button'><Link to='/formik'>Formik Form</Link> </button>
       <button className='simple-button'><Link to='/simple'>Simple Form</Link>  </button>
       <button className='final-button'><Link to='/final'>Final Form</Link> </button>
-    </div>
+    </div> */}
     <Routes>
       <Route path='/formik' element={<FormInput/>}/>
       <Route path='/final' element={<FinalForm/>}/>
