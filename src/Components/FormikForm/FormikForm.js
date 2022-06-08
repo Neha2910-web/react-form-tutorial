@@ -1,6 +1,6 @@
 import React from 'react'
 import {Formik,Form,Field,ErrorMessage} from 'formik';
-import './FormikForm.css'
+// import './FormikForm.css'
 function FormInput() {
    
   return (
@@ -41,36 +41,36 @@ function FormInput() {
     }}
 >
 {({ isSubmitting }) => (
-  <div className='formik-form-controls'>
+  <div className='form-controls'>
       <Form>
         <h1>Formik Form</h1>
-        
-        <label>First Name:</label><br/>
+        <div className="form-control">
+        <label>First Name:</label>
         <Field name='fname' type='text' placeholder='First Name'/>
         <ErrorMessage className='error-msg'  name="fname" component="div" />
-        
-
-        <label>Last Name:</label><br/>
+        </div>
+<div className="form-control">
+        <label>Last Name:</label>
         <Field name='lname' type='text' placeholder='Last Name'/>
         <ErrorMessage className='error-msg' name="lname" component= 'div' />
-        
-      
-         <label>Organisation Name:</label><br/>
+        </div>
+        <div className="form-control">
+         <label>Organisation Name:</label>
         <Field name='orgname' type='text' placeholder='Organisation Name' />
         <ErrorMessage className='error-msg' name="orgname" component="div" />
-        
-
-        <label>Email:</label><br/>
+        </div>
+        <div className="form-control">
+        <label>Email:</label>
         <Field name='email' type='email' placeholder='Email'  />
         <ErrorMessage  className='error-msg' name="email" component="div" />
-        
-    
-        <label>Phone Number:</label><br/>
+        </div>
+        <div className="form-control">
+        <label>Phone Number:</label>
         <Field name='phone' type='text' placeholder='Phone Number'/>
         <ErrorMessage className='error-msg' name="phone" component="div" />
-        
+        </div>
      
-       <button type="submit" className='submit'>Submit</button>
+       <button type="submit" className='buttons'>Submit</button>
      
       </Form>
       </div>

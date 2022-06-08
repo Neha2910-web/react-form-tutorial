@@ -7,7 +7,7 @@ const onSubmit = ( values) => {
  
 }
 
-export default function FinalForm() {
+ function FinalForm() {
 
   return (
     <div className='form-controls' >
@@ -106,3 +106,4 @@ export default function FinalForm() {
    </div>
   )
 }
+export default FinalForm;
