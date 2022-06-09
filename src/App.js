@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import {BrowserRouter,Routes,Route, Navigate} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FormInput from './Components/FormikForm/FormikForm';
@@ -10,6 +10,7 @@ import Footer from './Components/Footer/Footer';
 const App = () => {
   return(
     <div className='app'>
+    
     <BrowserRouter>
     <Header/>
     
@@ -18,9 +19,11 @@ const App = () => {
       <Route path='/formik' element={<FormInput/>}/>
       <Route path='/final' element={<FinalForm/>}/>
       <Route path='/simple' element={<SimpleForm/>}/>
+      <Route path='*' element={<Navigate to='/simple'replace/>}/>
     </Routes>
-    <Footer/>
+    
        </BrowserRouter>
+       <Footer/>
  </div>
   )
 }

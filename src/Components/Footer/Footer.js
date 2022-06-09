@@ -15,7 +15,7 @@ return (
 	<h1 style={{ color: "green", 
                    textAlign: "center", 
                    marginTop: "-50px" }}>
-                       Scro Lab Developer
+                       sacro Lab Developer
 
     </h1>
 	<Container>
