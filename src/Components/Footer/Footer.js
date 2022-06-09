@@ -15,7 +15,7 @@ return (
 	<h1 style={{ color: "green", 
                    textAlign: "center", 
                    marginTop: "-50px" }}>
-                       sacro Lab Developer
+                       SacroLabs Developer
 
     </h1>
 	<Container>
